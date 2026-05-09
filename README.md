@@ -14,6 +14,7 @@ Script simples em Bash para personalizar o terminal Linux com um banner ASCII ce
 - Lolcat
 
 ## Instalação 
+
 Execute os comandos abaixo para instalar as dependências:
 
 ```bash
@@ -30,20 +31,27 @@ Para alterar o nome, modifique esta linha:
 ```bash
 figlet -f slant "Seu nome" 
 ```
+
 Exemplo: 
+
 ```bash
 figlet -f slant "Rainer Sacks"
 ```
 
 Para alterar a frase ou descrição, modifique esta linha:
+
 ```bash
 ascii_box "Coloque o que quiser" 
 ```
+
 Exemplo: 
+
 ```bash
 ascii_box "Software Engineering"
 ```
+
 ## Testar antes de adicionar ao .bashrc
+
 Depois de personalizar o nome e a frase, copie e cole o código abaixo diretamente no terminal para testar o banner antes de adicionar ao arquivo `.bashrc`:
 
 ```bash
@@ -97,6 +105,7 @@ Depois de testar e confirmar que funcionou corretamente, abra o arquivo `.bashrc
 ```bash
 nano ~/.bashrc
 ```
+
 Cole apenas o código do banner no final do arquivo.
 
 > Não cole os comandos de instalação dentro do `.bashrc`.
