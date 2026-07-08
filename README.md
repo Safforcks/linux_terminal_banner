@@ -1,4 +1,4 @@
-# Linux Terminal Banner 🐧
+# Linux Terminal Banner 🐧 - 05/2026
 
 Script simples em Bash para personalizar o terminal Linux com um banner ASCII centralizado, utilizando FIGlet e Lolcat.
 
